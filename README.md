@@ -38,5 +38,5 @@ Each folder has its own README with setup and run instructions.
 
 ## Contact
 
-- LinkedIn: [https://www.linkedin.com/in/swati-kanwar-264540228/]
-- Email: [swatikanwar1300@gmail.com]
+- LinkedIn: https://www.linkedin.com/in/swati-kanwar-264540228/
+- Email: swatikanwar1300@gmail.com
