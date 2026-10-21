@@ -14,8 +14,8 @@ I'm currently targeting Salesforce QA and test automation roles.
 
 | Folder | What it contains | Status |
 |---|---|---|
-| `test-cases/` | Test cases written with steps, test data and expected results | Planned |
-| `sql-practice/` | SQL queries: joins, aggregates, subqueries | Planned |
+| `test-cases/` | Test cases written with steps, test data and expected results | In Progress |
+| `sql-practice/` | SQL queries: joins, aggregates, subqueries | In Progress |
 | `api-testing-postman/` | Postman collection with assertions and negative tests | Planned |
 | `python-basics/` | Small programs: strings, hash maps, functions | Planned |
 | `selenium-practice/` | UI automation with Selenium and pytest on a practice site | Planned |
