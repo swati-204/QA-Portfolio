@@ -39,3 +39,42 @@ WHERE name LIKE "A%";
 SELECT * FROM employees 
 WHERE salary BETWEEN 50000 AND 80000;
 --result : 5 rows returned 
+
+
+--Sorting & Filtering 
+--7. Employees sorted by salary, highest first.
+Select * from employees
+ORDER BY salary DESC;
+--Result : 9 rows returned 
+
+--8. The 3 highest-paid employees.
+Select * from employees
+ORDER BY salary DESC 
+LIMIT 3;
+--result : 3 rows returned
+
+--9. Employees in departments 1 or 3
+Select * from employees
+WHERE dept_id IN(1,3);
+
+--result : 4 rows returned 
+
+--10. Employees not in department 2.
+Select * from employees 
+WHERE dept_id NOT IN (2);
+--result :  5 rows returned 
+
+--11. Distinct department IDs.
+Select  DISTINCT dept_id FROM employees ;
+
+--result : 5 rows returned 
+
+--12. Employees sorted by department, then by name.
+SELECT * from employees 
+ORDER BY dept_id AND name;
+--result : 9 rows returned
+
+--13. Each employee’s name with their department name.
+
+
+
