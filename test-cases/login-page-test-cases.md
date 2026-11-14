@@ -1,5 +1,5 @@
-| ID | Title | Preconditions | Steps | Test data | Expected result |Actual result |Type |Status |
-|---|---|---|---|---|---|---|---|
+| ID | Title | Preconditions | Steps | Test data | Expected result |Actual result | Type | Status |
+|---|---|---|---|---|---|---|---|---|
 | TC01 | Login with valid credentials | On login page | 1. Enter a valid username. 2. Enter valid password. 3. Click Login. | standard_user/ secret_sauce | User lands on the home page| As expected | Positive | Pass |
 | TC02 | Login with invalid username and invalid password | On login page | 1. Enter invalid username. 2. Enter invalid password. 3. Click Login. | test@example.com / Pass@1234 | Error message should be displayed | As expected | Negative | Pass|
 | TC03 | Login with invalid username and valid password | On login page | 1. Enter invalid username. 2. Enter valid password. 3. Click Login. | test@example.com / secret_sauce | Error message should be displayed  | As expected | Negative | Pass|
